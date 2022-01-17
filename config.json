@@ -1,0 +1,36 @@
+{
+    "chains": [
+      {
+        "name": "Fuji",
+        "type": "ethereum",
+        "id": "0",
+        "endpoint": "wss://api.avax-test.network/ext/bc/C/ws",
+        "from": "0x31d3892EC556D1656F907A621DDf684aa241cEB2",
+        "opts": {
+          "bridge": "0xf11E382f6f36CF6dA22F817202447e6ddAED5562",
+          "erc20Handler": "0x9CBE1A8F47C15Cf9B11CE5C23DF389f503a662e3",
+          "erc721Handler": "0x2A50D3A2de27A9a1a4CC73E13cA7baD70Bb64E5a",
+          "genericHandler": "0x6F3cF32f657779B0Ada5C9CbF87111B30EeDFa1a",
+          "gasLimit": "1000000",
+          "maxGasPrice": "25000000000"
+        }
+      },
+      {
+        "name": "Goerli",
+        "type": "ethereum",
+        "id": "1",
+        "endpoint": "wss://goerli.infura.io/ws/v3/4ed01c78689e447d8e80f28e898336e4",
+        "from": "0x2d65f604f1070B1ae1746F2Ce0694B153054ed46",
+        "opts": {
+          "bridge": "0xe0c5d80c9d232E63dcF713582b9e3365981A782E",
+          "erc20Handler": "0x35a616eBB9d69cD7090339C3d3789835A53f94e0",
+          "erc721Handler": "0x6B671EddeE5439DD31042893F43Fe2649De08fC0",
+  
+          "genericHandler": "0xAA6C90384ad58699aD9704A2aa951f205f3cDF51",
+          "gasLimit": "1000000",
+          "maxGasPrice": "10000000000"
+        }
+      }
+    ]
+  }
+  
